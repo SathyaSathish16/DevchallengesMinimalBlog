@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Sora:wght@100..800&display=swap');
+
+
+img {
+    width: 100%;
+    border-radius: 12px;
+    height:130px;
+    object-fit:cover;
+    margin-bottom:10px;
+}
+
+body {
+    background-color:#E5EAF0;
+    font-family: "Sora", sans-serif;
+    
+}
+
+.container {
+    position:relative;
+    display:grid;
+    grid-template-rows: 1fr auto auto 1fr;
+
+    max-width: 300px;
+    margin: 0 auto;
+    margin-top: 20vh;
+}
+.blogcard{
+   
+    background-color: #FAFAF9;
+    padding:16px;
+    border-radius:12px 12px 0 0;
+   
+    box-shadow: 0px 30px 100px 0px rgba(17, 23, 41, 0.05);
+}
+.item{
+    margin-top:16px;
+    background-color: snow;
+}
+.tag{
+   
+    margin-top: 16px;
+    padding:4px 16px;
+    border: 1px solid #E6D6FC;
+    background-color: #E6D6FC;
+    color:#883AE1;
+
+    font-size:10px;
+    font-weight:bold;
+    
+    border-radius: 50px;
+}
+.heading{
+    margin-top: 16px;
+     font-weight: 600;
+}
+p{
+    font-weight: 200;
+    color:#6C727F;
+    font-size:14px;
+}
+footer{
+   
+    margin-top:1px;
+    background-color: #FAFAF9;
+    max-width:300px;
+    border-radius:0 0 12px 12px;
+    height:50px;
+    
+ 
+}
+.author{
+    
+    padding: 16px;
+    font-size: 12px;
+    font-weight: 400;
+    color:#6C727F;
+}
