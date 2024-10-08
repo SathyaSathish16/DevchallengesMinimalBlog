@@ -4,7 +4,7 @@
 img {
     width: 100%;
     border-radius: 12px;
-    height:130px;
+    height:152px;
     object-fit:cover;
     margin-bottom:10px;
 }
@@ -20,9 +20,10 @@ body {
     display:grid;
     grid-template-rows: 1fr auto auto 1fr;
 
-    max-width: 300px;
+    max-width: 372px;
     margin: 0 auto;
-    margin-top: 20vh;
+    /* margin-top: 20vh; */
+    margin-top:164px;
 }
 .blogcard{
    
@@ -62,7 +63,7 @@ footer{
    
     margin-top:1px;
     background-color: #FAFAF9;
-    max-width:300px;
+    max-width:372px;
     border-radius:0 0 12px 12px;
     height:50px;
     
@@ -70,7 +71,7 @@ footer{
 }
 .author{
     
-    padding: 16px;
+    padding: 20px;
     font-size: 12px;
     font-weight: 400;
     color:#6C727F;
